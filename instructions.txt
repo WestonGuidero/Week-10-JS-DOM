@@ -1,0 +1,7 @@
+Using HTML, Bootstrap, and JavaScript create a single page website that contains the following:
+A Bootstrap styled table representing your choice of data.
+A Bootstrap styled form that allows a user to add a new row to the table when clicking on submit.
+
+1. how to get gitignore file mentioned for assignments? is it automatically created when you uplaod to a repo/github?
+2. touch over this weeks assignment dom/js
+3. touch over card game
