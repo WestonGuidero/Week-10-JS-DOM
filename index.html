@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"> </script>
+   <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Add any custom styles here */
+    body {
+      padding-top: 50px;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <div class="container">
+    <h1>Dynamic Table</h1>
+
+    <!-- Bootstrap Form -->
+    <form id="myForm" class="mb-4">
+      <div class="form-group">
+        <label for="item">Item:</label>
+        <input type="text" class="form-control" id="item" required>
+      </div>
+      <div class="form-group">
+        <label for="itemQuantity">Quantity:</label>
+        <input type="number" class="form-control" id="itemQuantity" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Add to Table</button>
+    </form>
+
+    <!-- Bootstrap Table -->
+    <table id="myTable" class="table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- Table body will be populated dynamically -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <!-- A Bootstrap styled Form & Table END 
+      - (that allows a user to add a new row to the table when clicking on submit.) -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="script.js"> </script>
 </body>
 </html>
